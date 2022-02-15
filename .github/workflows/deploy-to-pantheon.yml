@@ -34,4 +34,4 @@ jobs:
       run: |
         echo ${{ secrets.KNOWN_HOSTS }}
         git remote add pantheon $pantheon_repo
-        git push -f pantheon HEAD:master
+        git push pantheon HEAD:master
