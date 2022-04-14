@@ -1,5 +1,7 @@
 <?php
 
+
+$config['site_audit']['opt_out']['BestPracticesMultisite'] = TRUE;
 /**
  * Load services definition file.
  */
